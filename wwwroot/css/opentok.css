@@ -1,0 +1,117 @@
+﻿#videos {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#subscriber {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+#publisher {
+    position: absolute;
+    width: 360px;
+    height: 240px;
+    bottom: 10px;
+    left: 10px;
+    z-index: 100;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+.opentok_console {
+    /*margin-left: 5px;
+    width: 524px;
+    height: 272px;*/
+}
+
+.links {
+    /*float: left;*/
+    /*width: 200px;*/
+    /*border: 5px solid #0042a9;*/
+    border-radius:5px;
+    background-color: #FFFFFF;
+    margin-left:5px;
+}
+
+.videos {
+    /*width: 58px;*/
+}
+
+.publisherContainer1 {
+    height: 110px;
+    width: 110px;
+    /*float: left;*/
+    /*border: 5px solid #00488B;*/
+    border-radius: 5px;
+    background-color: none;
+    margin-left: 5px;
+}
+.publisherContainer {
+    height: 110px;
+    width: 110px;
+    /*float: left;*/
+    /*border: 5px solid #0042a9;*/
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin-left: 5px;
+}
+.subscribersContainer1 {
+    /*width: 315px;
+    height: 276px;
+    border: 5px solid #00488B;*/
+    border-radius: 5px;
+    background-color: none;
+    margin-left: 5px;
+}
+.subscribersContainer {
+    /*width: 315px;
+    height: 276px;*/
+    border: 5px solid #0042a9;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin-left: 5px;
+}
+#acceptCallBox {
+    display: none;
+    z-index: 2;
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    border: #0042a9 solid 2px;
+    background-color: pink;
+    padding: 15px;
+}
+
+#onlineusers {
+    min-height: 30px;
+}
+
+.header {
+    background-color: pink;
+    font-weight: bold;
+}
+
+.pubbuttonbg {
+    background-color: #FF0066;
+    height: 40px;
+    width: 185px;
+    color: white;
+    margin-top: 5px;
+}
+
+.subbuttonbg {
+    background-color: #FF0066;
+    height: 40px;
+    width: 185px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

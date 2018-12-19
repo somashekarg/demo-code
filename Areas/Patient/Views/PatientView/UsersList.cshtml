@@ -1,0 +1,31 @@
+﻿@using Microsoft.AspNetCore.Mvc
+@using Microsoft.AspNetCore.Http
+@using System;
+@using OneDirect.ViewModels;
+@{
+
+}
+
+
+
+<div class="section" style="padding-top:15px">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div class="portfolio" style="background-color:white;">
+                    <ul class="simplefilter" style="text-align:left">
+                        @foreach (var item in ViewBag.UserList)
+                        {
+                            <li style="display:list-item;border:none"><a href="@Url.Action("SendMessage","PatientView",new { area="Patient",id=item.UserId})">@item.Name</a></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
